@@ -23,7 +23,7 @@ npm run build
 
 Deploy static pages to gh-pages
 ```
-npm run gh-pages #
+npm run gh-pages
 ```
 
 ## Release
