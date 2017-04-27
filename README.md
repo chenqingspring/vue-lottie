@@ -1,18 +1,38 @@
-# my-component
+# A Seed Project for Creating Vue Component
 
-> A Seed Project for Vue Component
+## Demo
+[my-component](https://chenqingspring.github.io/create-vue-component/)
 
-## Build Setup
+## Setup
 
-``` bash
-# install dependencies
+Install dependencies
+```
 npm install
-
-# serve with hot reload at localhost:8080
+```
+Serve with hot reload at localhost:8080
+```
 npm run dev
 
-# build for production with minification
+```
+Build for production with minification
+```
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Deploy
+
+Deploy static pages to gh-pages
+```
+npm run gh-pages #
+```
+
+## Release
+
+Publish npm package
+```
+npm run release
+```
+
+## License
+
+MIT
