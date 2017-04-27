@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build && git add . && git commit -m 'chore: build demo' && git push && git checkout master"
   },
   "dependencies": {
     "vue": "^2.2.1"
