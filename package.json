@@ -1,8 +1,8 @@
 {
   "name": "my-component",
   "description": "A Vue.js project",
-  "version": "1.0.0",
-  "author": "CHEN Qing <chenqing@sevencent.com.cn>",
+  "version": "0.0.1",
+  "author": "CHEN Qing",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

@@ -1,6 +1,6 @@
 # my-component
 
-> A Vue.js project
+> A Seed Project for Vue Component
 
 ## Build Setup
 
