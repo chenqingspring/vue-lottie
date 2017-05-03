@@ -3,6 +3,10 @@
   "description": "Lottie Animation View for Vue",
   "version": "0.0.1",
   "author": "CHEN Qing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenqingspring/vue-lottie.git"
+  },
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -25,7 +29,8 @@
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0",
-    "standard-version": "^4.0.0"
+    "standard-version": "^4.0.0",
+    "vue-lottie": "^0.0.1"
   },
   "main": "src/lottie.vue",
   "keywords": [
