@@ -1,7 +1,7 @@
 {
   "name": "vue-lottie",
   "description": "Lottie Animation View for Vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "CHEN Qing",
   "repository": {
     "type": "git",
