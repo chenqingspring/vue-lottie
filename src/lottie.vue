@@ -6,7 +6,14 @@
   import bodymovin from 'bodymovin';
 
   export default {
-    props: ['options', 'height', 'width'],
+    props: {
+      options: {
+        type: Object,
+        required: true
+      },
+      height: Number,
+      width: Number,
+    },
 
     data () {
       return {
@@ -20,7 +27,7 @@
     },
 
     mounted () {
-      bodymovin.loadAnimation({
+      this.anim = bodymovin.loadAnimation({
           container: this.$refs.lavContainer,
           renderer: 'svg',
           loop: this.options.loop !== false,
@@ -28,6 +35,7 @@
           animationData: this.options.animationData
         }
       );
+      this.$emit('animCreated', this.anim)
     }
   }
 </script>
