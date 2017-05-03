@@ -1,4 +1,4 @@
-# Lottie Animation View for Vue ([React](https://github.com/chenqingspring/react-lottie) [Angular](https://github.com/chenqingspring/ng-lottie))
+# Lottie Animation View for Vue ([React](https://github.com/chenqingspring/react-lottie), [Angular](https://github.com/chenqingspring/ng-lottie))
 
 [![npm version](https://badge.fury.io/js/vue-lottie.svg)](http://badge.fury.io/js/vue-lottie)
 

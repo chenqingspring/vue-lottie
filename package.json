@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build && git add . && git commit -m 'chore: build demo' --allow-empty && git push && git checkout master"
+    "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build && git add . && git commit -m 'chore: build demo' --allow-empty && git push && git checkout master",
+    "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish"
   },
   "dependencies": {
     "vue": "^2.2.1",
@@ -23,8 +24,14 @@
     "vue-loader": "^11.1.4",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "webpack-dev-server": "^2.2.0",
+    "standard-version": "^4.0.0"
   },
-  "main": "src/lottie.vue"
-
+  "main": "src/lottie.vue",
+  "keywords": [
+    "vue",
+    "lottie",
+    "vue-component",
+    "vue-animation"
+  ]
 }
