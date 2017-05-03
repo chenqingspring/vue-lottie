@@ -38,5 +38,6 @@
     "lottie",
     "vue-component",
     "vue-animation"
-  ]
+  ],
+  "license": "MIT"
 }
