@@ -1,18 +1,24 @@
 <template>
     <div id="app">
         <img src="./assets/logo.png">
-        <my-component/>
+        <lottie :options="defaultOptions" height="400" width="400"/>
     </div>
 
 </template>
 
 <script>
-  import MyComponent from './my-component.vue'
+  import Lottie from './lottie.vue';
+  import * as animationData from './assets/pinjump.json';
 
   export default {
     name: 'app',
     components: {
-      'my-component': MyComponent
+      'lottie': Lottie
+    },
+    data() {
+      return {
+        defaultOptions: {animationData: animationData}
+      }
     }
   }
 </script>

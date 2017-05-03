@@ -1,6 +1,6 @@
 {
-  "name": "my-component",
-  "description": "A Vue.js project",
+  "name": "vue-lottie",
+  "description": "Lottie Animation View for Vue",
   "version": "0.0.1",
   "author": "CHEN Qing",
   "private": true,
@@ -10,7 +10,8 @@
     "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build && git add . && git commit -m 'chore: build demo' --allow-empty && git push && git checkout master"
   },
   "dependencies": {
-    "vue": "^2.2.1"
+    "vue": "^2.2.1",
+    "bodymovin": "^4.5.6"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -24,6 +25,6 @@
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
   },
-  "main": "src/my-component.vue"
+  "main": "src/lottie.vue"
 
 }
