@@ -89,6 +89,9 @@ npm install --save vue-lottie
 </script>
 
 ```
+## Contribution
+
+Your contributions and suggestions are heartily welcome.
 
 ## License
 MIT
