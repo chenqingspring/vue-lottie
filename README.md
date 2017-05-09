@@ -89,6 +89,15 @@ npm install --save vue-lottie
 </script>
 
 ```
+## Related Projects
+
+* [Bodymovin](https://github.com/bodymovin/bodymovin) vue-lottie is a wrapper of bodymovin
+* [Angular Lottie](https://github.com/chenqingspring/ng-lottie) angular implementation
+* [React Lottie](https://github.com/chenqingspring/react-lottie) react implementation
+* [React Native Lottie](https://github.com/airbnb/lottie-react-native) react native implementation by airbnb
+* [IOS Lottie](https://github.com/airbnb/lottie-ios) ios implementation by airbnb
+* [Android Lottie](https://github.com/airbnb/lottie-android) android implementation by airbnb
+
 ## Contribution
 
 Your contributions and suggestions are heartily welcome.
