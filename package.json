@@ -30,7 +30,7 @@
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0",
     "standard-version": "^4.0.0",
-    "vue-lottie": "^0.0.3"
+    "vue-lottie": "^0.1.0"
   },
   "main": "src/lottie.vue",
   "keywords": [
