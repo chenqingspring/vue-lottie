@@ -32,7 +32,8 @@
           renderer: 'svg',
           loop: this.options.loop !== false,
           autoplay: this.options.autoplay !== false,
-          animationData: this.options.animationData
+          animationData: this.options.animationData,
+          rendererSettings: this.options.rendererSettings
         }
       );
       this.$emit('animCreated', this.anim)
