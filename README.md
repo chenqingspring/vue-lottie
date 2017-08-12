@@ -24,6 +24,8 @@ Bundle vector animations within your app without having to worry about multiple 
 
 [Learn more](http://airbnb.design/introducing-lottie/) › http://airbnb.design/lottie/
 
+Looking for lottie files › https://www.lottiefiles.com/
+
 
 ## Installation
 
