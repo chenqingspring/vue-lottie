@@ -91,6 +91,19 @@ npm install --save vue-lottie
 </script>
 
 ```
+## Configuration
+
+You can pass a configuration object through `options` property:
+* animationData: an Object with the exported animation data.
+* path: the relative path to the animation object. (animationData and path are mutually exclusive)
+* loop: true / false / number
+* autoplay: true / false it will start playing as soon as it is ready
+* name: animation name for future reference
+* renderer: 'svg' / 'canvas' / 'html' to set the renderer
+* container: the dom element on which to render the animation
+
+More information on [Bodymoving Documentation](https://github.com/bodymovin/bodymovin)
+
 ## Related Projects
 
 * [Bodymovin](https://github.com/bodymovin/bodymovin) vue-lottie is a wrapper of bodymovin
