@@ -17,7 +17,7 @@
   "dependencies": {
     "bodymovin": "^4.8.0",
     "vue": "^2.2.1",
-    "vue-lottie": "^0.1.1"
+    "vue-lottie": "^0.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

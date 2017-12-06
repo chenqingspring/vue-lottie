@@ -4425,6 +4425,14 @@ vue-lottie@^0.1.1:
     bodymovin "^4.8.0"
     vue "^2.2.1"
 
+vue-lottie@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-lottie/-/vue-lottie-0.1.2.tgz#49a51a9666fd95311d6df0e2cf968eb2f0b0c85e"
+  dependencies:
+    bodymovin "^4.8.0"
+    vue "^2.2.1"
+    vue-lottie "^0.1.1"
+
 vue-style-loader@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-2.0.5.tgz#f0efac992febe3f12e493e334edb13cd235a3d22"
