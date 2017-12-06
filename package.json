@@ -15,22 +15,22 @@
     "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish && git checkout ."
   },
   "dependencies": {
-    "vue": "^2.2.1",
-    "bodymovin": "^4.8.0"
+    "bodymovin": "^4.8.0",
+    "vue": "^2.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
-    "babel-preset-latest": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
+    "standard-version": "^4.0.0",
     "vue-loader": "^11.1.4",
+    "vue-lottie": "^0.1.0",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0",
-    "standard-version": "^4.0.0",
-    "vue-lottie": "^0.1.0"
+    "webpack-dev-server": "^2.2.0"
   },
   "main": "src/lottie.vue",
   "keywords": [
