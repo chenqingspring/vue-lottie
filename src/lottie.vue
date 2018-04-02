@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import bodymovin from 'bodymovin';
+  import lottie from 'lottie-web';
 
   export default {
     props: {
@@ -27,7 +27,7 @@
     },
 
     mounted () {
-      this.anim = bodymovin.loadAnimation({
+      this.anim = lottie.loadAnimation({
           container: this.$refs.lavContainer,
           renderer: 'svg',
           loop: this.options.loop !== false,
