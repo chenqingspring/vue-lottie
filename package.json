@@ -1,7 +1,7 @@
 {
   "name": "vue-lottie",
   "description": "Lottie Animation View for Vue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "CHEN Qing",
   "repository": {
     "type": "git",
@@ -12,25 +12,27 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build && git add . && git commit -m 'chore: build demo' --allow-empty && git push && git checkout master",
-    "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish"
+    "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish && git checkout ."
   },
   "dependencies": {
-    "vue": "^2.2.1",
     "bodymovin": "^4.8.0"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
-    "babel-preset-latest": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
+    "standard-version": "^4.0.0",
     "vue-loader": "^11.1.4",
+    "vue-lottie": "^0.1.0",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0",
-    "standard-version": "^4.0.0",
-    "vue-lottie": "^0.0.3"
+    "webpack-dev-server": "^2.2.0"
   },
   "main": "src/lottie.vue",
   "keywords": [

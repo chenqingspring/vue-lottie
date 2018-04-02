@@ -17,12 +17,14 @@ https://chenqingspring.github.io/vue-lottie
 We currently support solids, shape layers, masks, alpha mattes, trim paths, and dash patterns. And we’ll be adding new features on a regular basis.
 
 #### Manipulate your animation any way you like
-You can go forward, backward, and — most importantly — you can program your animation to respond to any interaction.
+You can go forward, backward, and most importantly you can program your animation to respond to any interaction.
 
 #### Small file sizes
 Bundle vector animations within your app without having to worry about multiple dimensions or large file sizes. Alternatively, you can decouple animation files from your app’s code entirely by loading them from a JSON API.
 
 [Learn more](http://airbnb.design/introducing-lottie/) › http://airbnb.design/lottie/
+
+Looking for lottie files › https://www.lottiefiles.com/
 
 
 ## Installation
@@ -89,6 +91,19 @@ npm install --save vue-lottie
 </script>
 
 ```
+## Configuration
+
+You can pass a configuration object through `options` property:
+* animationData: an Object with the exported animation data.
+* path: the relative path to the animation object. (animationData and path are mutually exclusive)
+* loop: true / false / number
+* autoplay: true / false it will start playing as soon as it is ready
+* name: animation name for future reference
+* renderer: 'svg' / 'canvas' / 'html' to set the renderer
+* container: the dom element on which to render the animation
+
+More information on [Bodymoving Documentation](https://github.com/bodymovin/bodymovin)
+
 ## Related Projects
 
 * [Bodymovin](https://github.com/bodymovin/bodymovin) vue-lottie is a wrapper of bodymovin
