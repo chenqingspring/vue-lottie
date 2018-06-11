@@ -112,7 +112,7 @@ More information on [Bodymoving Documentation](https://github.com/bodymovin/body
 * [React Native Lottie](https://github.com/airbnb/lottie-react-native) react native implementation by airbnb
 * [IOS Lottie](https://github.com/airbnb/lottie-ios) ios implementation by airbnb
 * [Android Lottie](https://github.com/airbnb/lottie-android) android implementation by airbnb
-* [Polymer Lottie](https://github.com/AfterWebX/polymate-view) polymer webcomponents implementation
+* [Polymer Lottie](https://github.com/reemardelarosa/polymate) polymer webcomponents implementation
 
 ## Contribution
 
