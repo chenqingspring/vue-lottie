@@ -15,7 +15,7 @@
     "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish && git checkout ."
   },
   "dependencies": {
-    "lottie-web": "^5.1.9"
+    "lottie-web": "^5.1.20"
   },
   "peerDependencies": {
     "vue": "^2.5.16"
