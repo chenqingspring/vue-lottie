@@ -13,6 +13,11 @@
       },
       height: Number,
       width: Number,
+      margin: {
+        type: String,
+        required: false,
+        default: '0 auto'
+      }
     },
 
     data () {
@@ -21,7 +26,7 @@
           width: this.width ? `${this.width}px` : '100%',
           height: this.height ? `${this.height}px` : '100%',
           overflow: 'hidden',
-          margin: '0 auto'
+          margin: this.margin
         }
       }
     },
