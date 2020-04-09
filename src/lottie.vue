@@ -33,7 +33,8 @@
           loop: this.options.loop !== false,
           autoplay: this.options.autoplay !== false,
           animationData: this.options.animationData,
-          rendererSettings: this.options.rendererSettings
+          rendererSettings: this.options.rendererSettings,
+          path: this.options.path
         }
       );
       this.$emit('animCreated', this.anim)
