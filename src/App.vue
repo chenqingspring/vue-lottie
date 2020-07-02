@@ -24,7 +24,7 @@
     },
     data() {
       return {
-        defaultOptions: {animationData: animationData},
+        defaultOptions: {animationData: animationData.default},
         animationSpeed: 1
       }
     },
